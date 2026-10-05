@@ -1,0 +1,34 @@
+ .main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(3, 73, 73);
+  gap: 10px;
+ }
+ .child-box{
+  background-color: rgb(42, 179, 133);
+  width: 20vw;
+  height: 30vh;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 25px;
+}
+.btn{
+  background-color: rgb(1, 1, 2);
+  color: white;
+  border-radius: 5px;
+  height: 6vh;
+  width: 6vw;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  padding: 4px;
+}
+
+  
